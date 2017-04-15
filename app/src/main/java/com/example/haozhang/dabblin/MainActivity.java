@@ -92,9 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (drawerToggle.onOptionsItemSelected(item)) {
-            return true;
-        }
+        drawerToggle.onOptionsItemSelected(item);
         return super.onOptionsItemSelected(item);
     }
 }
