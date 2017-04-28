@@ -8,4 +8,8 @@
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
 
+    <string name="list_shot_view_number">34</string>
+    <string name="list_shot_liked_number">10</string>
+    <string name="list_shot_marked_number">3</string>
+
 </resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/shot_image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:placeholderImage="@drawable/shot_placeholder"
+        fresco:placeholderImageScaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_xsmall">
+
+        <TextView
+            android:id="@+id/list_shot_view_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_large"
+            android:layout_toLeftOf="@+id/list_shot_liked_icon"
+            android:drawableStart="@drawable/ic_remove_red_eye_black_18dp"
+            android:drawableLeft="@drawable/ic_remove_red_eye_black_18dp"
+            android:drawablePadding="@dimen/space_xxsmall"
+            android:text="12"/>
+
+        <TextView
+            android:id="@+id/list_shot_liked_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_large"
+            android:layout_toLeftOf="@+id/list_shot_marked_icon"
+            android:drawableStart="@drawable/ic_favorite_black_18dp"
+            android:drawableLeft="@drawable/ic_favorite_black_18dp"
+            android:drawablePadding="@dimen/space_xxsmall"
+            android:text="3"/>
+
+        <TextView
+            android:id="@+id/list_shot_marked_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_medium"
+            android:layout_alignParentRight="true"
+            android:drawableStart="@drawable/ic_turned_in_black_18dp"
+            android:drawableLeft="@drawable/ic_turned_in_black_18dp"
+            android:drawablePadding="@dimen/space_xxsmall"
+            android:text="1" />
+
+    </RelativeLayout>
+
+</LinearLayout>
