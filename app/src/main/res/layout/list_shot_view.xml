@@ -25,10 +25,9 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/space_large"
             android:layout_toLeftOf="@+id/list_shot_liked_icon"
-            android:drawableStart="@drawable/ic_remove_red_eye_black_18dp"
             android:drawableLeft="@drawable/ic_remove_red_eye_black_18dp"
             android:drawablePadding="@dimen/space_xxsmall"
-            android:text="12"/>
+            android:text="@string/list_shot_view_number"/>
 
         <TextView
             android:id="@+id/list_shot_liked_icon"
@@ -37,10 +36,9 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/space_large"
             android:layout_toLeftOf="@+id/list_shot_marked_icon"
-            android:drawableStart="@drawable/ic_favorite_black_18dp"
             android:drawableLeft="@drawable/ic_favorite_black_18dp"
             android:drawablePadding="@dimen/space_xxsmall"
-            android:text="3"/>
+            android:text="@string/list_shot_liked_number"/>
 
         <TextView
             android:id="@+id/list_shot_marked_icon"
@@ -49,10 +47,9 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/space_medium"
             android:layout_alignParentRight="true"
-            android:drawableStart="@drawable/ic_turned_in_black_18dp"
             android:drawableLeft="@drawable/ic_turned_in_black_18dp"
             android:drawablePadding="@dimen/space_xxsmall"
-            android:text="1" />
+            android:text="@string/list_shot_marked_number" />
 
     </RelativeLayout>
 
