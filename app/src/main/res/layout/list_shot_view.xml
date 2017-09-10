@@ -19,29 +19,29 @@
         android:padding="@dimen/space_xsmall">
 
         <TextView
-            android:id="@+id/list_shot_view_icon"
+            android:id="@+id/shot_view_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/space_large"
-            android:layout_toLeftOf="@+id/list_shot_liked_icon"
+            android:layout_toLeftOf="@+id/shot_liked_count"
             android:drawableLeft="@drawable/ic_remove_red_eye_black_18dp"
             android:drawablePadding="@dimen/space_xxsmall"
             android:text="@string/list_shot_view_number"/>
 
         <TextView
-            android:id="@+id/list_shot_liked_icon"
+            android:id="@+id/shot_liked_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginRight="@dimen/space_large"
-            android:layout_toLeftOf="@+id/list_shot_marked_icon"
+            android:layout_toLeftOf="@+id/shot_marked_count"
             android:drawableLeft="@drawable/ic_favorite_black_18dp"
             android:drawablePadding="@dimen/space_xxsmall"
             android:text="@string/list_shot_liked_number"/>
 
         <TextView
-            android:id="@+id/list_shot_marked_icon"
+            android:id="@+id/shot_marked_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
