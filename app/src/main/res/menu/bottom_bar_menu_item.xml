@@ -2,21 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/bottom_bar_home"
-        android:title="home"
+        android:title="@string/bottom_bar_home"
         android:icon="@drawable/ic_home" />
 
     <item
         android:id="@+id/bottom_bar_bucket"
-        android:title="folder"
+        android:title="@string/bottom_bar_bucket"
         android:icon="@drawable/ic_folder" />
 
     <item
         android:id="@+id/bottom_bar_notification"
-        android:title="notification"
+        android:title="@string/bottom_bar_notification"
         android:icon="@drawable/ic_notifications" />
 
     <item
         android:id="@+id/bottom_bar_profile"
-        android:title="profile"
+        android:title="@string/bottom_bar_profile"
         android:icon="@drawable/ic_person" />
 </menu>

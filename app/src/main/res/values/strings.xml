@@ -12,4 +12,9 @@
     <string name="list_shot_liked_number">10</string>
     <string name="list_shot_marked_number">3</string>
 
+    <string name="bottom_bar_home">Home</string>
+    <string name="bottom_bar_bucket">fFolder</string>
+    <string name="bottom_bar_notification">Notification</string>
+    <string name="bottom_bar_profile">Profile</string>
+
 </resources>
