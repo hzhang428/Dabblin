@@ -29,4 +29,13 @@
         android:layout_gravity="start"
         app:menu="@menu/drawer_menu"/>
 
+    <android.support.design.widget.BottomNavigationView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        app:menu="@menu/bottom_bar_menu_item"/>
+
 </android.support.v4.widget.DrawerLayout>
